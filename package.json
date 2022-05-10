@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "packageManager": "pnpm@6.32.3",
+  "scripts": {
+    "build": "git clone https://github.com/papazeal/web-matcha.git app && cd app && pnpm i && vite-ssg build",
+    "dev": "git clone https://github.com/papazeal/web-matcha.git app && cd app && pnpm i && vite --port 3333 --open"
+  }
+}
